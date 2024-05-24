@@ -9,37 +9,37 @@ O projeto é dividido em vários componentes:
 
 1. FileProcessor:
 
-- Classe responsável por ler o arquivo de entrada.
-- Verifica se o arquivo existe e se não está vazio.
-- Gera um iterador para percorrer as linhas do arquivo.
+   - Classe responsável por ler o arquivo de entrada.
+   - Verifica se o arquivo existe e se não está vazio.
+   - Gera um iterador para percorrer as linhas do arquivo.
 
 2. LineProcessor:
 
-- Classe responsável por processar cada linha do arquivo.
-- Divide cada linha em palavras usando um delimitador especificado.
+   - Classe responsável por processar cada linha do arquivo.
+   - Divide cada linha em palavras usando um delimitador especificado.
 
 3. TextDialog:
 
-- Classe responsável por exibir texto em uma janela GUI usando a biblioteca Tkinter.
-- Fornece métodos para exibir texto normal e mensagens de erro.
+   - Classe responsável por exibir texto em uma janela GUI usando a biblioteca Tkinter.
+   - Fornece métodos para exibir texto normal e mensagens de erro.
 
 4. Constants:
 
-- Classe contendo constantes utilizadas em todo o projeto, como mensagens de erro e prompts de entrada.
+   - Classe contendo constantes utilizadas em todo o projeto, como mensagens de erro e prompts de entrada.
 
 5. Main
 
-- Função principal que coordena o fluxo do programa.
-- Solicita o nome do arquivo de entrada ao usuário.
-- Processa cada linha do arquivo, calculando a soma das pontuações de cada aluno.
-- Gera e exibe um relatório com as somas das pontuações.
+   - Função principal que coordena o fluxo do programa.
+   - Solicita o nome do arquivo de entrada ao usuário.
+   - Processa cada linha do arquivo, calculando a soma das pontuações de cada aluno.
+   - Gera e exibe um relatório com as somas das pontuações.
 
 ## Estrutura Arquivo de Entrada 
 
 O arquivo de entrada deve seguir o seguinte formato em cada linha:
 
  ```
-    PrimeiroNome SegundoNome Nota
+    PrimeiroNome | UltimoNome | Nota
  ```
 
 Onde:
