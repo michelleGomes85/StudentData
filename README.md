@@ -38,9 +38,9 @@ O projeto é dividido em vários componentes:
 
 O arquivo de entrada deve seguir o seguinte formato em cada linha:
 
-'''
+ ```
     PrimeiroNome SegundoNome Nota
-'''
+ ```
 
 Onde:
 
